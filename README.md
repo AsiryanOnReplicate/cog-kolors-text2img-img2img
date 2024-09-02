@@ -15,7 +15,3 @@ Then, you can run
 **img2img** predictions:
 	
 	cog predict -i image=@astro.png -i prompt="photo of a lone astronaut standing on a barren planet"
-	
-**inpainting** predictions:
-	
-	cog predict -i image=@demo.png -i mask=@mask.png -i prompt="a tabby cat, high resolution, sitting on a park bench"
