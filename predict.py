@@ -55,7 +55,7 @@ class Predictor(BasePredictor):
             default=""
         ),
         image: Path = Input(
-            description="Input image for img2img or inpaint mode",
+            description="Input image for img2img mode",
             default=None,
         ),
         width: int = Input(
